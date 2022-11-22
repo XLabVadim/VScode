@@ -12,12 +12,12 @@ class Program
 			list.Add(i);
 		foreach (int r in list)
 		{
-			Console.Write(r);
+			Console.WriteLine(r);
 		}
+		Console.Write("\n");
 
         // дз 4 *******************************************************
         Console.WriteLine("Домашнее задание №4");
-        Console.Clear();
         LinkedList<int> linkedList = new LinkedList<int>();
         // добавление элементов в список
         linkedList.Add(1);
@@ -38,6 +38,7 @@ class Program
         // добавляем элемент в начало            
         linkedList.AppendFirst(6);
         linkedList.Show();
+		Console.Write("\n");
 
         // ДЗ 2 ********************************************************
         Console.WriteLine("Домашнее задание №2");
@@ -61,7 +62,7 @@ class Program
 				}
 			}
 		}
-		Console.WriteLine("\n");
+		Console.Write("\n");
 		}
 
 		static void Second_array(int[] array, int k)
