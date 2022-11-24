@@ -39,7 +39,7 @@ public class _List<T> : IEnumerable, IEnumerator
     {
         position = -1;
     }
-
+    
     public T Current
     {
         get
